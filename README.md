@@ -1,8 +1,7 @@
 ```
-player.game       = "earth online 2.x"
-player.attr       = "bayesian"
+player.game       = "earth online 2.x
+player.objective  = max E[fun && joy | observation]
+player.attr       = "bayesian player"
+player.policy     = explore >> exploit
 player.apm        <= 200
-player.objective  = max E[joy | observation]
-player.policy     = explore ≫ exploit
-player.prior      ~ uninformative
 ```
